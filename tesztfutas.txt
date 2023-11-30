@@ -1,0 +1,167 @@
+X:\FuziK\GDF\OOPSzoft\IV9ANP_OOP_Vizsg\venv\Scripts\python.exe X:\FuziK\GDF\OOPSzoft\IV9ANP_OOP_Vizsg\main.py
+Szoba felvéve:1
+
+Szoba felvéve:2
+
+Szoba felvéve:3
+
+A szobaszám 0 nem létezik!
+
+A megadott dátum 2001-12-21 nem jó. Csak jövőbeni dátum adható meg!
+A szoba 1 erre a napra 2023-12-21 befoglalva! Ára: 16000.
+
+A foglalás eredménye:16000
+A szoba 2 erre a napra 2023-12-22 befoglalva! Ára: 16000.
+
+A foglalás eredménye:16000
+A szoba 3 erre a napra 2023-12-23 befoglalva! Ára: 23500.
+
+A foglalás eredménye:23500
+A szoba 2 erre a napra 2023-12-27 befoglalva! Ára: 16000.
+
+A foglalás eredménye:16000
+A szoba 3 erre a napra 2023-12-29 befoglalva! Ára: 23500.
+
+A foglalás eredménye:23500
+A szoba 1 ezen a napon már 2023-12-21 foglalt!
+
+A szoba 2 ezen a napon már 2023-12-22 foglalt!
+
+A szoba 3 ezen a napon már 2023-12-23 foglalt!
+
+A szoba 1 erre a napra 2023-12-31 befoglalva! Ára: 16000.
+
+A foglalás eredménye:16000
+A szoba 2 erre a napra 2023-12-31 befoglalva! Ára: 16000.
+
+A foglalás eredménye:16000
+A megadott dátum 2001-12-31 nem jó. Csak jövőbeni dátum adható meg!
+A lemondás eredménye:None
+A szoba 1 ezen a napon 2099-12-31 nem foglalt!
+
+A lemondás eredménye:None
+A szoba 1 erre a napra 2023-12-31 felszabadítva! Ára: 16000.
+
+A lemondás eredménye:-16000
+A szoba 2 erre a napra 2023-12-31 felszabadítva! Ára: 16000.
+
+A lemondás eredménye:-16000
+Foglalások a Szállj Szabadon Szálloda szállodában.
+
+	Szobaszám: 1 EgyagyasSzoba  Dátum: 2023-12-21  Ár: 16000
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-22  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-23  Ár: 23500
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-27  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-29  Ár: 23500
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:0
+Szobák a Szállj Szabadon Szálloda szállodában.
+
+	Szobaszám: 1 EgyagyasSzoba  Ár: 16000
+
+	Szobaszám: 2 EgyagyasSzoba  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Ár: 23500
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:1
+Foglalások a Szállj Szabadon Szálloda szállodában.
+
+	Szobaszám: 1 EgyagyasSzoba  Dátum: 2023-12-21  Ár: 16000
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-22  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-23  Ár: 23500
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-27  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-29  Ár: 23500
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:2
+Foglalás menü:
+Adja meg a szobaszámot:1
+Adja meg a dátumot (ÉÉÉÉ.HH.NN):2023.12.01
+A szoba 1 erre a napra 2023-12-01 befoglalva! Ára: 16000.
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:1
+Foglalások a Szállj Szabadon Szálloda szállodában.
+
+	Szobaszám: 1 EgyagyasSzoba  Dátum: 2023-12-21  Ár: 16000
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-22  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-23  Ár: 23500
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-27  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-29  Ár: 23500
+
+	Szobaszám: 1 EgyagyasSzoba  Dátum: 2023-12-01  Ár: 16000
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:3
+Lemondás menü:
+Adja meg a szobaszámot:1
+Adja meg a dátumot (ÉÉÉÉ.HH.NN):2023.12.01
+A szoba 1 erre a napra 2023-12-01 felszabadítva! Ára: 16000.
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:1
+Foglalások a Szállj Szabadon Szálloda szállodában.
+
+	Szobaszám: 1 EgyagyasSzoba  Dátum: 2023-12-21  Ár: 16000
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-22  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-23  Ár: 23500
+
+	Szobaszám: 2 EgyagyasSzoba  Dátum: 2023-12-27  Ár: 16000
+
+	Szobaszám: 3 KetagyasSzoba  Dátum: 2023-12-29  Ár: 23500
+
+Szálloda Szállj Szabadon Szálloda ...
+0: Listázás (szobák)
+1: Listázás (foglalások)
+2: Foglalás
+3: Lemondás
+4: Kilép
+Válasszon funkciót:4
+
+Process finished with exit code 0

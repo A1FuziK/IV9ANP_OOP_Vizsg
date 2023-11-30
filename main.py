@@ -73,6 +73,10 @@ class Szalloda:
         self._foglalasok = list()
         self._nev = "Szállj Szabadon Szálloda"
 
+    def listSzobak(self):
+        print(f'Szobák a {self._nev} szállodában.\n')
+        for szoba in self._szobak:
+            print(f'\tSzobaszám: {szoba.szobaszam} {szoba.Tipusnev()}  Ár: {szoba.ar}\n')
     def listFoglalasok(self):
         print(f'Foglalások a {self._nev} szállodában.\n')
         for foglalas in self._foglalasok:
@@ -210,7 +214,62 @@ szallodam.listFoglalasok()
 #print(datetime.date.today())
 #print(szallodam)
 
+def FoglalUser():
+    print('Foglalás menü:')
+    str_szobaszam = input('Adja meg a szobaszámot:')
+    str_datum = input('Adja meg a dátumot (ÉÉÉÉ.HH.NN):')
+
+    try:
+        i_szoba = int(str_szobaszam)
+        try:
+            d_datum = datetime.datetime.strptime(str_datum, '%Y.%m.%d').date()
+            szallodam.szobaFoglal(i_szoba,d_datum)
+        except:
+            print('A dátum nem tűnik jónak...')
+    except:
+        print('A szobaszám nem tűnik jónak...')
+
+    pass
+
+def LemondUser():
+    print('Lemondás menü:')
+    str_szobaszam = input('Adja meg a szobaszámot:')
+    str_datum = input('Adja meg a dátumot (ÉÉÉÉ.HH.NN):')
+
+    try:
+        i_szoba = int(str_szobaszam)
+        try:
+            d_datum = datetime.datetime.strptime(str_datum, '%Y.%m.%d').date()
+            szallodam.szobaLemond(i_szoba,d_datum)
+        except:
+            print('A dátum nem tűnik jónak...')
+    except:
+        print('A szobaszám nem tűnik jónak...')
+
+    pass
 
 
-
+while True:
+    print(f'Szálloda {szallodam.nev} ...')
+    print('0: Listázás (szobák)')
+    print('1: Listázás (foglalások)')
+    print('2: Foglalás')
+    print('3: Lemondás')
+    print('4: Kilép')
+    inputresult = input('Válasszon funkciót:')
+    if inputresult == '4':
+        break
+    elif inputresult == '0':
+        szallodam.listSzobak()
+        pass
+    elif inputresult == '1':
+        szallodam.listFoglalasok()
+        pass
+    elif inputresult == '2':
+        FoglalUser()
+        pass
+    elif inputresult == '3':
+        LemondUser()
+        pass
+    pass
 
